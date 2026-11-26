@@ -6,7 +6,7 @@ Requirements:
     pip install bleak
 
 Run:
-    python scan_ble_verbose.py
+    python scan_ble.py
 
 The iPixel/BK-Light protocol uses a service UUID starting with 0000fa00.
 Devices matching that will be flagged. Otherwise, look at RSSI (closer to
